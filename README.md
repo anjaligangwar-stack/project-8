@@ -4,6 +4,7 @@ A simple and responsive Random Quote Generator built with HTML, CSS & JavaScript
 
  Live Demo
  Project: (https://sensational-paprenjak-4cef94.netlify.app)
+link2: https://anjaligangwar-stack.github.io/project-8/
 
 ✨ Features
 - 15+ Programming related quotes
