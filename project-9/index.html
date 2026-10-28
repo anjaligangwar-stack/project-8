@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+  <h1>Image Gallery</h1>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/01pic.png" id="fullImg">
+        <span onclick="closeFullImg()">x</span>
+    </div>
+    <div class="img-gallery">
+        <img src="images/01pic.png" onclick="openFullImg(this.src)">
+        <img src="images/02pic.png"  onclick="openFullImg(this.src)">
+        <img src="images/03pic.png"  onclick="openFullImg(this.src)">
+        <img src="images/08pic.png"  onclick="openFullImg(this.src)">
+        <img src="images/09pic.png"  onclick="openFullImg(this.src)">
+        <img src="images/0004pic.png" onclick="openFullImg(this.src)">
+        <img src="images/006.png" onclick="openFullImg(this.src)">
+        <img src="images/007.png" onclick="openFullImg(this.src)">
+    </div>
+   
+  
+<script>
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+
+  function openFullImg(pic){
+    fullImgBox.style.display = "flex";
+    fullImg.src = pic;
+  }
+  function closeFullImg(){
+    fullImgBox.style.display = "none";
+  }
+</script>
+  </script>
+</body>
+</html>
